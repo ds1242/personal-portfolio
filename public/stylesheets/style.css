@@ -16,3 +16,22 @@ body{
     color:var(--primary_color);
     background-color:#8d99ae;
 }
+nav {
+    background-color:var(--primary_color);
+}
+nav a {
+    color:var(--secondary_color); 
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+nav h1:hover{
+    color: var(--tertiary_color);
+    text-shadow:2px 2px 5px var(--tertiary_color);
+}
+nav h3 {
+    color:var(--secondary_color); 
+    text-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+nav h3:hover{
+    color: var(--tertiary_color);
+    text-shadow:2px 2px 5px var(--tertiary_color);
+}
