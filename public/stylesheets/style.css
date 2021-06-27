@@ -42,7 +42,7 @@ nav h3:hover{
 .section-title{
     /* display:flex; */
     /* flex-wrap: nowrap; */
-    flex-basis:25%;
+    /* flex-basis:25%; */
     font-size: 2vw;
     border-right: 2px solid var(--primary_color);   
 }
@@ -59,14 +59,7 @@ nav h3:hover{
 }
 .about-text{
     padding:0 20px;
-    /* display:flex; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.main-text{
-    font-size: 1.5vw;
-    color:var(--primary_color);
-    /* display:flex; */
-    /* flex-basis: 75%; */
-}
-
