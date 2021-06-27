@@ -39,3 +39,34 @@ nav h3:hover{
 .jumbotron img {
     width: 100%; 
 }
+.section-title{
+    /* display:flex; */
+    /* flex-wrap: nowrap; */
+    flex-basis:25%;
+    font-size: 2vw;
+    border-right: 2px solid var(--primary_color);   
+}
+#about-me {
+    padding: 55px;
+}
+.about-me-img img{
+    width:300px;
+    height:400px;
+    background-image: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+.about-text{
+    padding:0 20px;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+.main-text{
+    font-size: 1.5vw;
+    color:var(--primary_color);
+    /* display:flex; */
+    /* flex-basis: 75%; */
+}
+
