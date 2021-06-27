@@ -35,3 +35,7 @@ nav h3:hover{
     color: var(--tertiary_color);
     text-shadow:2px 2px 5px var(--tertiary_color);
 }
+
+.jumbotron img {
+    width: 100%; 
+}
